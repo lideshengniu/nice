@@ -78,6 +78,7 @@
         ],
         "show": true
       },
+
       {
         "pid": 10,
         "name": "天地图电子",
@@ -472,12 +473,13 @@
         "pid": 3030,
         "type": "geojson",
         "name": "建筑物面",
-        "url": "{dataServer}/file/geojson/buildings-demo.json",
+        "url": "http://localhost/mars3d-data/file/geojson/Export_Output.json",
         "symbol": { "styleOptions": { "color": "#0d3685", "outlineColor": "#0d3685", "opacity": 0.8 } },
         "buildings": { "cloumn": "floors", "height": "flo_height" },
         "popup": "all",
         "flyTo": true
       },
+
       {
         "pid": 3030,
         "type": "geojson",
@@ -816,13 +818,7 @@
       },
       { "id": 3050, "pid": 30, "name": "KML数据", "type": "group" },
       { "pid": 3050, "type": "kml", "name": "海上安全警告", "url": "{dataServer}/file/kml/NAVWARN.kmz", "popup": "all" },
-      {
-        "pid": 3050,
-        "type": "kml",
-        "name": "国境线",
-        "url": "{dataServer}/file/kml/countryboundary.kml",
-        "symbol": { "styleOptions": { "color": "#FED976", "width": 2 } }
-      },
+
       {
         "pid": 3050,
         "type": "kml",
@@ -869,6 +865,20 @@
         ],
         "center": { "lat": 31.786281, "lng": 117.223716, "alt": 3718, "heading": 2, "pitch": -45 }
       },
+      {
+        "id": 204012,
+        "pid": 2040,
+        "name": "模型名称",
+        "type": "3dtiles",
+        "url": "http://localhost/mars3d-data/3dtiles/qx-dyt/tileset.json",
+        "maximumScreenSpaceError": 1,
+        "maximumMemoryUsage": 1024,
+        "position": { "alt": 452.9 },
+        "center": { "lat": 34.216894, "lng": 108.959834, "alt": 591, "heading": 4, "pitch": -37 },
+        "show": true,
+        "highlight": { "type": "click", "color": "#FFFF00" }
+      },
+
       {
         "id": 204012,
         "pid": 2040,

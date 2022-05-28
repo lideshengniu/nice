@@ -47,9 +47,24 @@ const store: StoreOptions<WidgetState> = {
         component: markRaw(defineAsyncComponent(() => import("@mars/widgets/basic/location-point/index.vue"))),
         name: "location-point",
         group: "tools"
+      },
+      {
+        component: markRaw(defineAsyncComponent(() => import("@mars/widgets/demo/menu/index.vue"))),
+        name: "menu",
+        group: "tools"
+      },
+      {
+        component: markRaw(defineAsyncComponent(() => import("@mars/widgets/demo/geojson/index.vue"))),
+        name: "geojson",
+        group: "tools"
+      },
+      {
+        component: markRaw(defineAsyncComponent(() => import("@mars/widgets/demo/file/index.vue"))),
+        name: "file",
+        group: "tools"
       }
     ],
-    openAtStart: ["query-poi", "toolbar"]
+    openAtStart: ["query-poi", "toolbar", "geojson", "file"]
   }
 }
 

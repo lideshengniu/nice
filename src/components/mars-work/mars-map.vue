@@ -36,6 +36,8 @@ onMounted(() => {
   mars3d.Util.fetchJson({ url: props.url }).then((data: any) => {
     initMars3d({
       // 合并配置项
+      // date 是 返回的 url 就是config 里面 配置的
+      // props.options 是从 main-view 里传过来的我们自定义的参数
       ...data.map3d,
       ...props.options
     })
@@ -47,7 +49,7 @@ const emit = defineEmits(["onload"])
 const initMars3d = (option: any) => {
   map = new mars3d.Map(withKeyId.value, option)
 
-  // //如果有xyz传参，进行定位
+  // //如果有xyz传参，进行定位  在input 框输入的（）
   const lat = getQueryString("lat")
   const lng = getQueryString("lng")
   if (lat && lng) {

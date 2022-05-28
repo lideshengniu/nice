@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [120.2994362587589, 22.55517952588667, 0],
+            [120.4884693671894, 22.55684316623834, 0],
+            [120.4763394507468, 23.09583400201206, 0],
+            [120.1499478987743, 23.12705220490689, 0],
+            [120.2994362587589, 22.55517952588667, 0]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "未命名多边形",
+        "styleUrl": "#msn_ylw-pushpin",
+        "styleHash": "-3108366f",
+        "styleMapHash": {
+          "normal": "#sn_ylw-pushpin",
+          "highlight": "#sh_ylw-pushpin"
+        },
+        "icon-scale": 1.1,
+        "icon-offset": [20, 2],
+        "icon": "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png",
+        "stroke-width": 1.2
+      }
+    }
+  ]
+}

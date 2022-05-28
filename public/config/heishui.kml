@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Gamma Software (http://www.gamma-rs.ch/) -->
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+    <name>45.2.zhuanhuan.bmp.kml</name>
+    <GroundOverlay>
+      <name>45.2.zhuanhuan.bmp</name>
+      <Icon>
+        <href>45.2.zhuanhuan.bmp</href>
+      </Icon>
+      <LatLonBox>
+        <north> 32.2361167 </north>
+        <south> 32.0067365 </south>
+        <east>  103.3792665 </east>
+        <west>  103.0163126 </west>
+      </LatLonBox>
+    </GroundOverlay>
+  </Document>
+</kml>
